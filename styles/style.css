@@ -1,3 +1,142 @@
 @import url(../fonts/Mont/mont.css);
 @import url(../fonts/SF-PRO/SFPro.css);
 
+.page {
+  margin: 0 auto;
+}
+
+.header {
+  padding: 105px 0;
+  background-color: #11161E;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header__menu {
+  margin: 0 auto;
+  padding-bottom: 133px;
+}
+
+.menu-list {
+  max-width: 1280px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.menu-list__item {
+  margin: 0 5vw 0 0;
+}
+
+.menu-list__item:last-child {
+  margin: 0;
+}
+
+.menu-list__item:nth-child(3) {
+  margin-right: 15vw;
+}
+
+.menu-list__item:nth-child(4) {
+  margin: 0;
+}
+
+.menu-list__item:nth-child(5) {
+  margin-left: 15vw;
+}
+
+@media screen and (min-width: 1280px) {
+  .menu-list__item {
+    margin: 0 58px 0 0;
+  }
+
+  .menu-list__item:last-child {
+    margin: 0;
+  }
+
+  .menu-list__item:nth-child(3) {
+    margin-right: 180px;
+  }
+
+  .menu-list__item:nth-child(4) {
+    margin: 0;
+  }
+
+  .menu-list__item:nth-child(5) {
+    margin-left: 180px;
+  }
+}
+
+.menu-list__link {
+  text-decoration: none;
+  color: rgba(118, 134, 159, 0.8);
+  font-family: 'SFPro', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+.menu-list__link:hover,
+.active {
+  color: #5CA35B;
+  font-weight: 600;
+}
+
+.header__grid {
+  display: grid;
+  grid-template-columns: minmax(300px, 580px) 467px;
+  gap: 89px;
+}
+
+.haeder__grid-img {
+  width: 100%;
+}
+
+.header__title {
+  font-family: 'SFPro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 101.3%;
+  color: white;
+  margin: 30px 0 0;
+}
+
+.header__text {
+  font-family: 'SFPro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 129.8%;
+  color: #6A7C95;
+  max-width: 453px;
+  margin: 39px 0 0;
+}
+
+.header__button {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 262px;
+  background-color: #5CA35B;
+  padding: 11px 20px;
+  border-radius: 10px;
+  margin-top: 67px;
+}
+
+.header__button-text {
+  max-width: 239px;
+  text-decoration: none;
+  font-family: 'SFPro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 151.3%;
+  text-align: center;
+  color: #FFFFFF;
+}
