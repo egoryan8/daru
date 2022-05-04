@@ -398,3 +398,67 @@
 .posblty__link:hover {
   opacity: .3;
 }
+
+.convenience {
+  background-color: #181F29;
+  padding: 140px 0 0;
+}
+
+@media screen and (max-width: 1440px) {
+  .convenience {
+    padding: 120px 48px 50px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .convenience {
+    padding: 100px 30px 30px;
+  }
+}
+
+.section-subtitle_convenience {
+  max-width: 565px;
+}
+
+.convenience__button {
+  max-width: 262px;
+  box-sizing: border-box;
+  padding: 15px 30px;
+  background-color: #212A38;
+  border-radius: 10px;
+  display: block;
+  text-decoration: none;
+  font-family: 'SFPro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 49px;
+  color: #6A7C95;
+  transition: .5s;
+}
+
+.convenience__button:hover {
+  transform: scale(1.1);
+}
+
+.convenience-grid {
+  display: grid;
+  grid-template-columns: minmax(300px, 565px) minmax(300px, 535px);
+}
+
+@media screen and (max-width: 950px) {
+  .section-subtitle_convenience {
+    font-size: 16px;
+  }
+  .convenience-grid {
+    gap: 20px;
+  }
+  .convenience__button {
+    margin-top: 25px;
+  }
+}
+
+.convenience__image {
+  width: 100%;
+}
