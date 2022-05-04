@@ -328,7 +328,6 @@
 }
 
 .link__card-pic {
-  max-width: 90px;
   object-fit: cover;
   object-position: center;
 }
@@ -607,4 +606,42 @@
 
 .cheap__grid-price_delete {
   background-color: #95936A;
+}
+
+.socials {
+  background-color: #181F29;
+  padding: 145px 0 113px;
+}
+
+@media screen and (max-width: 1440px) {
+  .socials {
+    padding: 120px 48px 100px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .socials {
+    padding: 100px 30px 80px;
+  }
+}
+
+.section-subtitle_socials {
+  max-width: 565px;
+}
+
+.socials__list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  max-width: 368px;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.social__link {
+  transition: .7s;
+}
+
+.social__link:hover {
+  opacity: .4;
 }
