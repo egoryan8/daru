@@ -451,9 +451,11 @@
   .section-subtitle_convenience {
     font-size: 16px;
   }
+
   .convenience-grid {
     gap: 20px;
   }
+
   .convenience__button {
     margin-top: 25px;
   }
@@ -461,4 +463,145 @@
 
 .convenience__image {
   width: 100%;
+}
+
+
+.cheap {
+  background-color: #11161E;
+  padding: 143px 0 169px;
+}
+
+.section-subtitle_cheap {
+  max-width: 514px;
+}
+
+@media screen and (max-width: 1440px) {
+  .cheap {
+    padding: 120px 48px 140px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cheap {
+    padding: 100px 30px 120px;
+  }
+}
+
+.cheap__grid-container {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10%;
+  margin: 48px 0 0 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .cheap__grid-container {
+    gap: 5%;
+  }
+}
+
+.cheap__grid-item {
+  background-color: #273140;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 25px;
+}
+
+@media screen and (max-width: 1200px) {
+  .cheap__grid-item{
+    padding: 30px 35px;
+  }
+}
+
+.cheap__grid-heading {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0 0 5px;
+}
+
+.cheap__grid-rate {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  color: #717E92;
+  margin: 0;
+}
+
+.cheap__grid-list {
+  padding: 0;
+  margin: 23px 0 39px;
+}
+
+.cheap__grid-list-item {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160.3%;
+  color: #717E92;
+}
+
+@media screen and (max-width: 1200px) {
+  .cheap__grid-list-item{
+    font-size: 14px;
+  }
+}
+
+.cheap__grid-list-item_disable {
+  opacity: .3;
+}
+
+.cheap__grid-price {
+  max-width: 248px;
+  box-sizing: border-box;
+  padding: 10px 65px;
+  text-decoration: none;
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 5px;
+  transition: .5s;
+}
+
+@media screen and (max-width: 1200px) {
+  .cheap__grid-price{
+    padding: 10px 40px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .cheap__grid-price{
+    font-size: 16px;
+    padding: 15px 20px;
+  }
+}
+
+.cheap__grid-price:hover {
+  transform: scale(1.2);
+  border-radius: 10px;
+  transition-delay: 0;
+}
+
+.cheap__grid-price_alt {
+  background-color: #6A7395;
+}
+
+.cheap__grid-price_command {
+  background-color: #6A9590;
+}
+
+.cheap__grid-price_delete {
+  background-color: #95936A;
 }
