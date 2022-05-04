@@ -258,3 +258,105 @@
     margin-top: 160px;
   }
 }
+
+.link {
+  background-color: #181F29;
+  padding: 160px 0;
+}
+
+@media screen and (max-width:1440px) {
+  .link {
+    padding: 100px 48px;
+  }
+}
+
+@media screen and (max-width:1023px) {
+  .link {
+    padding: 100px 30px;
+  }
+}
+
+.section-title {
+  margin: 0 0 22px 0;
+  font-family: 'SFPro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  color: #FFFFFF;
+}
+
+.section-subtitle {
+  font-family: 'SFPro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 142.8%;
+  color: #6A7C95;
+}
+
+.section-subtitle_link {
+  max-width: 753px;
+}
+
+.link__cards {
+  margin-top: 65px;
+  max-width: 1280px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 95px;
+}
+
+@media screen and (max-width: 1105px) {
+  .link__cards {
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .link__cards {
+    gap: 20px;
+  }
+}
+
+.link__card {
+  background-color: #273140;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 37px 15px;
+}
+
+.link__card-pic {
+  max-width: 90px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.link__card-heading {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 28px 0;
+}
+
+.link__card-text {
+  margin: 0;
+  max-width: 250px;
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 142.8%;
+  text-align: center;
+  color: #717E92;
+}
+
+@media screen and (max-width: 1023px) {
+  .link__card-text {
+    font-size: 14px;
+  }
+}
