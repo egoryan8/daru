@@ -435,12 +435,15 @@
   text-align: center;
   margin-top: 49px;
   color: #6A7C95;
-  transition: .5s;
+  transition: .7s;
 }
 
 .convenience__button:hover {
   transform: scale(1.1);
+  color: #5CA35B;
+  border: 2px solid #5CA35B;
 }
+
 
 .convenience-grid {
   display: grid;
