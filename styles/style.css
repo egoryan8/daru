@@ -456,6 +456,9 @@
   .posblty {
     padding: 60px 30px;
   }
+  .posblty__link {
+    margin-top: 25px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -839,7 +842,7 @@
 
 @media screen and (max-width: 767px) {
   .footer__list {
-    margin-top: 10px;
+    margin-top: 20px;
     flex-direction: column;
   }
   .logo_place_footer {
@@ -849,5 +852,6 @@
   }
   .footer__link {
     margin-top: 20px;
+    font-size: 15px;
   }
 }
