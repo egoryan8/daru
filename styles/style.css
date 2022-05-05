@@ -513,7 +513,7 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .cheap__grid-item{
+  .cheap__grid-item {
     padding: 30px 35px;
   }
 }
@@ -553,7 +553,7 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .cheap__grid-list-item{
+  .cheap__grid-list-item {
     font-size: 14px;
   }
 }
@@ -578,13 +578,13 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .cheap__grid-price{
+  .cheap__grid-price {
     padding: 10px 40px;
   }
 }
 
 @media screen and (max-width: 890px) {
-  .cheap__grid-price{
+  .cheap__grid-price {
     font-size: 16px;
     padding: 15px 20px;
   }
@@ -644,4 +644,53 @@
 
 .social__link:hover {
   opacity: .4;
+}
+
+
+.footer {
+  padding: 50px 0;
+  background-color: #11161E;
+}
+
+@media screen and (max-width: 1440px) {
+  .footer {
+    padding: 50px 48px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .footer {
+    padding: 50px 30px;
+  }
+}
+
+.footer__list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  justify-content: space-between;
+}
+
+.footer__link {
+  text-decoration: none;
+  font-family: 'SFPro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 128.8%;
+  color: #2D3746;
+}
+
+.logo_place_footer {
+  width: 22px;
+  height: 34px;
+  margin: 0 18px 0 0;
+}
+
+.footer__list-item {
+  display: flex;
+  align-items: center;
 }
