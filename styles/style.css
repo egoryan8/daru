@@ -682,6 +682,13 @@
   font-size: 12px;
   line-height: 128.8%;
   color: #2D3746;
+  display: flex;
+  align-items: center;
+  transition: .7s;
+}
+
+.footer__link:hover {
+  opacity: 0.5;
 }
 
 .logo_place_footer {
@@ -690,7 +697,3 @@
   margin: 0 18px 0 0;
 }
 
-.footer__list-item {
-  display: flex;
-  align-items: center;
-}
