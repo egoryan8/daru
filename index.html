@@ -1,204 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+    <title>Daru Link</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/style.css">
-  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
-  <title>Daru Link</title>
-</head>
+  <body class="root">
+    <div class="page">
+      <header class="header">
+        <div class="container">
+          <div class="header-wrapper">
+            <a href="#" class="logo logo_place_header"><img src="./img/favicon.png" alt="header logo"></a>
+            <nav class="header__menu">
+              <ul class="menu-list">
+                <li class="menu-list__item">
+                  <a href="#" class="menu-list__link active">Главная</a>
+                </li>
+                <li class="menu-list__item">
+                  <a href="#" class="menu-list__link">Тариф</a>
+                </li>
+                <li class="menu-list__item">
+                  <a href="#" class="menu-list__link">Контакты</a>
+                </li>
+                <li class="menu-list__item">
+                  <a href="#" class="menu-list__link">Регистрация</a>
+                </li>
+                <li class="menu-list__item">
+                  <a href="#" class="menu-list__link">Вход</a>
+                </li>
+                <li class="menu-list__item">
+                  <a href="#" class="menu-list__link">Robokassa</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+          <div class="header__grid">
+            <div class="text-wrapper">
+              <h1 class="header__title">
+                Современное решение рутинных задач бизнеса
+              </h1>
+              <p class="header__text">
+                Создай свою страницу сайта и&nbsp;начни&nbsp;принимать оплаты в
+                1 клик
+              </p>
+              <div class="header__button">
+                <a href="#" target="_blank" class="header__button-text"
+                  >Создать страницу</a
+                >
+              </div>
+            </div>
+            <img
+              src="./img/header__grid-img2.png"
+              alt=""
+              class="haeder__grid-img"
+            />
+          </div>
+          <div class="header__contacts">
+            <a href="#" class="header__contacts-item"
+              ><img
+                src="./img/call.png"
+                alt="call"
+                class="header__contacts-img"
+              />+7 (706) 420-21-01</a
+            >
+            <a href="#" class="header__contacts-item"
+              ><img
+                src="./img/mail.png"
+                alt="mail"
+                class="header__contacts-img"
+              />info@daru.link</a
+            >
+          </div>
+        </div>
+      </header>
 
-<body class="root">
-  <div class="page">
-    <header class="header">
-      <div class="container">
-        <nav class="header__menu">
-          <ul class="menu-list">
-            <li class="menu-list__item"><a href="#" class="menu-list__link active">Главная</a></li>
-            <li class="menu-list__item"><a href="#" class="menu-list__link">Тариф</a></li>
-            <li class="menu-list__item"><a href="#" class="menu-list__link">Контакты</a></li>
-            <li class="menu-list__item"><a href="" class="logo logo_place_header"><img src="./img/favicon.png"
-                  alt="logo"></a></li>
-            <li class="menu-list__item"><a href="#" class="menu-list__link">Регистрация</a></li>
-            <li class="menu-list__item"><a href="#" class="menu-list__link">Вход</a></li>
-            <li class="menu-list__item"><a href="#" class="menu-list__link">Robokassa</a></li>
+      <main class="content">
+        <section class="link">
+          <div class="container">
+            <h2 class="section-title">Daru Link</h2>
+            <p class="section-subtitle section-subtitle_link">
+              Daru Link — это единое место, где вы можете создать собственный
+              сайт, выбрав ему категорию бизнеса, подключить к нему
+              онлайн-оплату или календарь записи всего 1 клик, не волноваться о
+              налоговых отчетностях и прочих бюрократичных моментах
+            </p>
+            <div class="link__cards">
+              <div class="link__card">
+                <img src="./img/icon_clock.png" alt="" class="link__card-pic" />
+                <h3 class="link__card-heading">Экономия</h3>
+                <p class="link__card-text">
+                  Не переплачивай другим, создайте свою страницу от $40 в месяц
+                </p>
+              </div>
+              <div class="link__card">
+                <img src="./img/Image_blue.png" alt="" class="link__card-pic" />
+                <h3 class="link__card-heading">Удобство</h3>
+                <p class="link__card-text">
+                  Понятный и простой интерфейс не затруднит работу с сервисом
+                </p>
+              </div>
+              <div class="link__card">
+                <img src="./img/Settings.png" alt="" class="link__card-pic" />
+                <h3 class="link__card-heading">Возможность</h3>
+                <p class="link__card-text">
+                  Подключайте свой сайт к Kaspi.kz&nbsp;,&nbsp;1C и Kazpost и
+                  контролируйте все в Daru
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="posblty">
+          <div class="container">
+            <h2 class="section-title">Возможность</h2>
+            <p class="section-subtitle section-subtitle_posblty">
+              Интегрируйте свой сайт с магазином Kaspi.kz, 1C и Kazpost для
+              автоматизации всех процессов в одном месте. На основе 1С ваш
+              интернет-магазин будет подгружать данные о товаре
+            </p>
+            <ul class="posblty__links">
+              <li class="posblty__link">
+                <a href="#" target="_blank"
+                  ><img src="./img/kaspi.png" alt="kaspi logo"
+                /></a>
+              </li>
+              <li class="posblty__link">
+                <a href="#" target="_blank"
+                  ><img src="./img/1c.png" alt="kaspi logo"
+                /></a>
+              </li>
+              <li class="posblty__link">
+                <a href="#" target="_blank"
+                  ><img
+                    src="./img/kazpost.png"
+                    alt="kaspi logo"
+                    class="posblty__img"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="convenience">
+          <div class="container">
+            <div class="convenience-grid">
+              <div class="text-wrapper">
+                <h2 class="section-title">Удобство</h2>
+                <p class="section-subtitle section-subtitle_convenience">
+                  Создавайте индивидуальный дизайн страницы. Фантазируйте и
+                  вооплощайте задуманное в реальность. Удобный и понятный
+                  интерфейс не затруднит работу с сервисом
+                </p>
+                <a href="#" class="convenience__button">Дизайн в 1 клик</a>
+              </div>
+              <img
+                src="./img/convi.png"
+                alt="convenience"
+                class="convenience__image"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section class="cheap">
+          <div class="container">
+            <h2 class="section-title">Дешевле чем заказывать</h2>
+            <p class="section-subtitle section-subtitle_cheap">
+              Создайте свой сайт со всеми расширениями дешевле, чем заказывать у
+              фрилансеров
+            </p>
+            <div class="cheap__grid-container">
+              <div class="cheap__grid-item">
+                <h3 class="cheap__grid-heading">“Альт”</h3>
+                <p class="cheap__grid-rate">тариф</p>
+                <ul class="cheap__grid-list">
+                  <li class="cheap__grid-list-item">Собственная страница</li>
+                  <li class="cheap__grid-list-item">Редактирование дизайна</li>
+                  <li class="cheap__grid-list-item">Подключение соц.сети</li>
+                  <li class="cheap__grid-list-item">
+                    Форма для заявок клиентов
+                  </li>
+                  <li class="cheap__grid-list-item">Поддержка 24/7</li>
+                  <li
+                    class="cheap__grid-list-item cheap__grid-list-item_disable"
+                  >
+                    Прием платежей
+                  </li>
+                  <li
+                    class="cheap__grid-list-item cheap__grid-list-item_disable"
+                  >
+                    Интеграция 1С и Kazpost
+                  </li>
+                  <li
+                    class="cheap__grid-list-item cheap__grid-list-item_disable"
+                  >
+                    Интеграция Kaspi
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  class="cheap__grid-price cheap__grid-price_alt"
+                  target="_blank"
+                  >$29/месяц</a
+                >
+              </div>
+              <div class="cheap__grid-item">
+                <h3 class="cheap__grid-heading">“Команд”</h3>
+                <p class="cheap__grid-rate">тариф</p>
+                <ul class="cheap__grid-list">
+                  <li class="cheap__grid-list-item">Собственная страница</li>
+                  <li class="cheap__grid-list-item">Редактирование дизайна</li>
+                  <li class="cheap__grid-list-item">Подключение соц.сети</li>
+                  <li class="cheap__grid-list-item">
+                    Форма для заявок клиентов
+                  </li>
+                  <li class="cheap__grid-list-item">Поддержка 24/7</li>
+                  <li class="cheap__grid-list-item">Прием платежей</li>
+                  <li class="cheap__grid-list-item">Интеграция 1С и Kazpost</li>
+                  <li
+                    class="cheap__grid-list-item cheap__grid-list-item_disable"
+                  >
+                    Интеграция Kaspi
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  class="cheap__grid-price cheap__grid-price_command"
+                  target="_blank"
+                  >$59/месяц</a
+                >
+              </div>
+              <div class="cheap__grid-item">
+                <h3 class="cheap__grid-heading">“Альт”</h3>
+                <p class="cheap__grid-rate">тариф</p>
+                <ul class="cheap__grid-list">
+                  <li class="cheap__grid-list-item">Собственная страница</li>
+                  <li class="cheap__grid-list-item">Редактирование дизайна</li>
+                  <li class="cheap__grid-list-item">Подключение соц.сети</li>
+                  <li class="cheap__grid-list-item">
+                    Форма для заявок клиентов
+                  </li>
+                  <li class="cheap__grid-list-item">Поддержка 24/7</li>
+                  <li class="cheap__grid-list-item">Прием платежей</li>
+                  <li class="cheap__grid-list-item">Интеграция 1С и Kazpost</li>
+                  <li class="cheap__grid-list-item">Интеграция Kaspi</li>
+                </ul>
+                <a
+                  href="#"
+                  class="cheap__grid-price cheap__grid-price_delete"
+                  target="_blank"
+                  >$89/месяц</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="socials">
+          <div class="container">
+            <h2 class="section-title">Обновления</h2>
+            <p class="section-subtitle section-subtitle_socials">
+              Следите за свежими обновлениями сервиса в социальных сетях и на
+              официальных страницах Daru Link
+            </p>
+            <ul class="socials__list">
+              <li class="social__link">
+                <a href="#" target="_blank"
+                  ><img src="./img/telegramm.png" alt="telegramm"
+                /></a>
+              </li>
+              <li class="social__link">
+                <a href="#" target="_blank"
+                  ><img src="./img/vk.png" alt="vk"
+                /></a>
+              </li>
+              <li class="social__link">
+                <a href="#" target="_blank"
+                  ><img src="./img/instagramm.png" alt="instagramm"
+                /></a>
+              </li>
+              <li class="social__link">
+                <a href="#" target="_blank"
+                  ><img src="./img/facebook.png" alt="facebook"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <nav class="container">
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a href="#" class="footer__link" target="_blank"
+                >Политика конфедациальности</a
+              >
+            </li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__link" target="_blank">
+                <img
+                  src="./img/favicon.png"
+                  alt="logo footer"
+                  class="logo logo_place_footer"
+                />
+                &copy; TOO “Дару Линк” все права защищены
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__link" target="_blank"
+                >Пользовательское соглашение</a
+              >
+            </li>
           </ul>
         </nav>
-        <div class="header__grid">
-          <div class="text-wrapper">
-            <h1 class="header__title">Современное решение рутинных задач бизнеса</h1>
-            <p class="header__text">Создай свою страницу сайта и&nbsp;начни&nbsp;принимать оплаты в 1 клик</p>
-            <div class="header__button"><a href="#" target="_blank" class="header__button-text">Создать страницу</a>
-            </div>
-          </div>
-          <img src="./img/header__grid-img2.png" alt="" class="haeder__grid-img">
-        </div>
-        <div class="header__contacts">
-          <a href="#" class="header__contacts-item"><img src="./img/call.png" alt="call" class="header__contacts-img">+7
-            (706) 420-21-01</a>
-          <a href="#" class="header__contacts-item"><img src="./img/mail.png" alt="mail"
-              class="header__contacts-img">info@daru.link</a>
-        </div>
-      </div>
-    </header>
-
-    <main class="content">
-      <section class="link">
-        <div class="container">
-          <h2 class="section-title">Daru Link</h2>
-          <p class="section-subtitle section-subtitle_link">Daru Link — это единое место, где вы можете создать
-            собственный сайт, выбрав ему
-            категорию бизнеса, подключить к нему онлайн-оплату или календарь записи всего 1 клик, не волноваться о
-            налоговых отчетностях и прочих бюрократичных моментах
-          </p>
-          <div class="link__cards">
-            <div class="link__card">
-              <img src="./img/icon_clock.png" alt="" class="link__card-pic">
-              <h3 class="link__card-heading">Экономия</h3>
-              <p class="link__card-text">Не переплачивай другим, создайте свою страницу от $40 в месяц</p>
-            </div>
-            <div class="link__card">
-              <img src="./img/Image_blue.png" alt="" class="link__card-pic">
-              <h3 class="link__card-heading">Удобство</h3>
-              <p class="link__card-text">Понятный и простой интерфейс не затруднит работу с сервисом</p>
-            </div>
-            <div class="link__card">
-              <img src="./img/Settings.png" alt="" class="link__card-pic">
-              <h3 class="link__card-heading">Возможность</h3>
-              <p class="link__card-text">Подключайте свой сайт к Kaspi.kz&nbsp;,&nbsp;1C и Kazpost и контролируйте все в Daru</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="posblty">
-        <div class="container">
-          <h2 class="section-title">Возможность</h2>
-          <p class="section-subtitle section-subtitle_posblty">
-            Интегрируйте свой сайт с магазином Kaspi.kz, 1C и Kazpost для автоматизации всех
-            процессов в одном месте. На основе 1С ваш интернет-магазин будет подгружать данные о товаре
-          </p>
-          <ul class="posblty__links">
-            <li class="posblty__link"><a href="#" target="_blank"><img src="./img/kaspi.png" alt="kaspi logo"></a></li>
-            <li class="posblty__link"><a href="#" target="_blank"><img src="./img/1c.png" alt="kaspi logo"></a></li>
-            <li class="posblty__link"><a href="#" target="_blank"><img src="./img/kazpost.png" alt="kaspi logo" class="posblty__img"></a>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="convenience">
-        <div class="container">
-          <div class="convenience-grid">
-            <div class="text-wrapper">
-              <h2 class="section-title">Удобство</h2>
-              <p class="section-subtitle section-subtitle_convenience">
-                Создавайте индивидуальный дизайн страницы. Фантазируйте и вооплощайте задуманное в реальность. Удобный и
-                понятный интерфейс не затруднит работу с сервисом
-              </p>
-              <a href="#" class="convenience__button">Дизайн в 1 клик</a>
-            </div>
-            <img src="./img/convi.png" alt="convenience" class="convenience__image">
-          </div>
-        </div>
-      </section>
-
-      <section class="cheap">
-        <div class="container">
-          <h2 class="section-title">Дешевле чем заказывать</h2>
-          <p class="section-subtitle section-subtitle_cheap">
-            Создайте свой сайт со всеми расширениями дешевле, чем заказывать у фрилансеров
-          </p>
-          <div class="cheap__grid-container">
-            <div class="cheap__grid-item">
-              <h3 class="cheap__grid-heading">“Альт”</h3>
-              <p class="cheap__grid-rate">тариф</p>
-              <ul class="cheap__grid-list">
-                <li class="cheap__grid-list-item">Собственная страница</li>
-                <li class="cheap__grid-list-item">Редактирование дизайна</li>
-                <li class="cheap__grid-list-item">Подключение соц.сети</li>
-                <li class="cheap__grid-list-item">Форма для заявок клиентов</li>
-                <li class="cheap__grid-list-item">Поддержка 24/7</li>
-                <li class="cheap__grid-list-item cheap__grid-list-item_disable">Прием платежей</li>
-                <li class="cheap__grid-list-item cheap__grid-list-item_disable">Интеграция 1С и Kazpost</li>
-                <li class="cheap__grid-list-item cheap__grid-list-item_disable">Интеграция Kaspi</li>
-              </ul>
-              <a href="#" class="cheap__grid-price cheap__grid-price_alt" target="_blank">$29/месяц</a>
-            </div>
-            <div class="cheap__grid-item">
-              <h3 class="cheap__grid-heading">“Команд”</h3>
-              <p class="cheap__grid-rate">тариф</p>
-              <ul class="cheap__grid-list">
-                <li class="cheap__grid-list-item">Собственная страница</li>
-                <li class="cheap__grid-list-item">Редактирование дизайна</li>
-                <li class="cheap__grid-list-item">Подключение соц.сети</li>
-                <li class="cheap__grid-list-item">Форма для заявок клиентов</li>
-                <li class="cheap__grid-list-item">Поддержка 24/7</li>
-                <li class="cheap__grid-list-item">Прием платежей</li>
-                <li class="cheap__grid-list-item">Интеграция 1С и Kazpost</li>
-                <li class="cheap__grid-list-item cheap__grid-list-item_disable">Интеграция Kaspi</li>
-              </ul>
-              <a href="#" class="cheap__grid-price cheap__grid-price_command" target="_blank">$59/месяц</a>
-            </div>
-            <div class="cheap__grid-item">
-              <h3 class="cheap__grid-heading">“Альт”</h3>
-              <p class="cheap__grid-rate">тариф</p>
-              <ul class="cheap__grid-list">
-                <li class="cheap__grid-list-item">Собственная страница</li>
-                <li class="cheap__grid-list-item">Редактирование дизайна</li>
-                <li class="cheap__grid-list-item">Подключение соц.сети</li>
-                <li class="cheap__grid-list-item">Форма для заявок клиентов</li>
-                <li class="cheap__grid-list-item">Поддержка 24/7</li>
-                <li class="cheap__grid-list-item">Прием платежей</li>
-                <li class="cheap__grid-list-item">Интеграция 1С и Kazpost</li>
-                <li class="cheap__grid-list-item">Интеграция Kaspi</li>
-              </ul>
-              <a href="#" class="cheap__grid-price cheap__grid-price_delete" target="_blank">$89/месяц</a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="socials">
-        <div class="container">
-          <h2 class="section-title">Обновления</h2>
-          <p class="section-subtitle section-subtitle_socials">
-            Следите за свежими обновлениями сервиса в социальных сетях и на официальных
-            страницах Daru Link
-          </p>
-          <ul class="socials__list">
-            <li class="social__link"><a href="#" target="_blank"><img src="./img/telegramm.png" alt="telegramm"></a>
-            </li>
-            <li class="social__link"><a href="#" target="_blank"><img src="./img/vk.png" alt="vk"></a></li>
-            <li class="social__link"><a href="#" target="_blank"><img src="./img/instagramm.png" alt="instagramm"></a>
-            </li>
-            <li class="social__link"><a href="#" target="_blank"><img src="./img/facebook.png" alt="facebook"></a></li>
-          </ul>
-        </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <nav class="container">
-        <ul class="footer__list">
-          <li class="footer__list-item">
-            <a href="#" class="footer__link" target="_blank">Политика конфедациальности</a>
-          </li>
-          <li class="footer__list-item">
-            <a href="#" class="footer__link" target="_blank">
-              <img src="./img/favicon.png" alt="logo footer" class="logo logo_place_footer">
-              &copy; TOO “Дару Линк” все права защищены
-            </a>
-          </li>
-          <li class="footer__list-item">
-            <a href="#" class="footer__link" target="_blank">Пользовательское соглашение</a>
-          </li>
-        </ul>
-      </nav>
-    </footer>
-  </div>
-</body>
-
+      </footer>
+    </div>
+    <script src="./script.js"></script>
+  </body>
 </html>
