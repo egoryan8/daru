@@ -166,15 +166,29 @@
   .hamburger.active-h .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
+  .header-wrapper.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px 30px;
+    background-color: #11161e;
+  }
   .menu-list {
     position: fixed;
     left: -100%;
-    top: 70px;
+    top: 87px;
     flex-direction: column;
+    justify-content: flex-start;
     background-color: #11161e;
     width: 100%;
     height: 100vh;
+    gap: 6%;
     transition: 0.3s;
+  }
+  .menu-list__item {
+    margin: 0;
   }
   .menu-list.active-m {
     left: 0;
