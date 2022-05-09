@@ -157,13 +157,13 @@
   .hamburger {
     display: block;
   }
-  .hamburger.active-h .bar:nth-child(2) {
+  .hamburger.active .bar:nth-child(2) {
     opacity: 0;
   }
-  .hamburger.active-h .bar:nth-child(1) {
+  .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
-  .hamburger.active-h .bar:nth-child(3) {
+  .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
   .header-wrapper.active {
@@ -190,7 +190,7 @@
   .menu-list__item {
     margin: 0;
   }
-  .menu-list.active-m {
+  .menu-list.active {
     left: 0;
     margin: 0;
   }
