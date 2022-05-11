@@ -1,6 +1,19 @@
 @import url(../fonts/Mont/mont.css);
 @import url(../fonts/SF-PRO/SFPro.css);
 
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotation {
+  animation: rotation 30s infinite linear;
+}
+
 .page {
   margin: 0 auto;
 }
@@ -212,7 +225,7 @@
 @media screen and (max-width: 767px) {
   .header__grid {
     padding-top: 40px;
-    gap: 20px;
+    gap: 60px;
   }
 }
 
@@ -223,8 +236,46 @@
   }
 }
 
+.header__grid-img-wrapper {
+  position: relative;
+}
+
+.header__grid-eclipse {
+  position: absolute;
+  top: 5%;
+  left: -15%;
+  z-index: 1;
+
+}
+
+@media (max-width: 1439px) {
+  .header__grid-eclipse {
+    width: 90%;
+  }
+}
+
+@media (max-width: 767px) {
+  .header__grid-eclipse {
+    left: -10%;
+  }
+}
+
+@media (max-width: 570px) {
+  .header__grid-eclipse {
+    left: 0;
+  }
+}
+
 .haeder__grid-img {
-  width: 100%;
+  width: 70%;
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 570px) {
+  .haeder__grid-img {
+    padding-left: 35px;
+  }
 }
 
 .header__title {
@@ -235,6 +286,8 @@
   line-height: 101.3%;
   color: white;
   margin: 6% 0 0;
+  z-index: 20;
+  position: relative;
 }
 
 @media screen and (max-width: 1060px) {
@@ -264,6 +317,8 @@
   color: #6a7c95;
   max-width: 453px;
   margin: 39px 0 0;
+  z-index: 20;
+  position: relative;
 }
 
 @media screen and (max-width: 1023px) {
@@ -284,6 +339,8 @@
   margin-top: 67px;
   transition: 0.5s;
   transition-delay: 0.3s;
+  z-index: 20;
+  position: relative;
 }
 
 @media screen and (max-width: 767px) {
