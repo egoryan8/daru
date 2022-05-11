@@ -486,6 +486,12 @@
   flex-direction: column;
   align-items: center;
   padding: 37px 15px;
+  transition: 0.7s ease;
+}
+
+.link__card:hover {
+  cursor: pointer;
+  transform: scale(1.2);
 }
 
 .link__card-pic {
@@ -720,6 +726,12 @@
   flex-direction: column;
   align-items: center;
   padding: 50px 25px;
+  transition: .7s ease;
+}
+
+.cheap__grid-item:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 1200px) {
